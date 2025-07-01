@@ -720,7 +720,7 @@ margin-bottom: 24px;
 }
 
 .form__agreement .question__label {
-display: flex;
+display: block;
 align-items: center;
 line-height: 1.7;
 text-align: center;
@@ -736,12 +736,6 @@ color: var(--light-slate);
 height: 16px;
 width: 16px;
 margin-right: 8px;
-}
-
-.form__agreement .question__label {
-font-size: 12px;
-letter-spacing: 0.04em;
-color: var(--light-slate);
 }
 
 .link--underline {
@@ -799,6 +793,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
+
 }
 
 .question__container-input {
@@ -811,6 +806,7 @@ flex-direction: row-reverse;
 input[type=checkbox]:checked + label .checkbox-icon-container {
   background-color: var(--ocean);
   border: none;
+  fill: var(--cloud);
 }
 
 input[type=checkbox]:checked + label .checkbox-icon-container .icon-checkmark {
