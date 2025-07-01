@@ -463,11 +463,11 @@ justify-content: start;
 align-items: baseline;
 }
 
-.footer_column1 {
+.footer_column_a {
 margin-right: 120px;
 }
 
-.footer_column2 {
+.footer_column_b {
 margin-right: 80px;
 }
 
@@ -484,7 +484,7 @@ color: #f4f4fd;
   gap: 16px;
 }
 
-.footer__title {
+.footer_title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -538,7 +538,7 @@ letter-spacing: 0.04em;
 color: var(--white);
 }
 
-.standartButtom.btn-news {
+.standart-button.btn-news {
 min-width: 165px;
 height: 40px;
 display: flex;
@@ -742,7 +742,7 @@ text-decoration-skip-ink: none;
 color: var(--iris);
 }
 
-.standartButtom.btn-form {
+.standart-button.btn-form {
 border-radius: 4px;
 padding: 16px 32px;
 width: 169px;
